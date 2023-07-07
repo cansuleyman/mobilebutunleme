@@ -4,25 +4,25 @@
 
 import 'dart:convert';
 
-But30119014 welcomeFromJson(String str) =>
-    But30119014.fromJson(json.decode(str));
+But030119014 welcomeFromJson(String str) =>
+    But030119014.fromJson(json.decode(str));
 
-String welcomeToJson(But30119014 data) => json.encode(data.toJson());
+String welcomeToJson(But030119014 data) => json.encode(data.toJson());
 
-class But30119014 {
+class But030119014 {
   String isim;
   String okuladi;
   int ogrenciNo;
   List<String> permissions;
 
-  But30119014({
+  But030119014({
     required this.isim,
     required this.okuladi,
     required this.ogrenciNo,
     required this.permissions,
   });
 
-  factory But30119014.fromJson(Map<String, dynamic> json) => But30119014(
+  factory But030119014.fromJson(Map<String, dynamic> json) => But030119014(
         isim: json["isim"],
         okuladi: json["okuladi"],
         ogrenciNo: json["OgrenciNo"],
